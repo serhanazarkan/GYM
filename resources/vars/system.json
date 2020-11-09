@@ -1,0 +1,369 @@
+{
+    "default_role": {
+        "admin": {
+            "name": "Admin",
+            "slug": "admin",
+            "guard_name": "web",
+            "is_main": 1,
+            "admin_panel_access": 1,
+            "description": "System admin account, can not be deleted or edited"
+        },
+        "member": {
+            "name": "Member",
+            "slug": "member",
+            "guard_name": "web",
+            "is_main": 1,
+            "admin_panel_access": 0,
+            "description": "Standard user account, can not be deleted or edited"
+        }
+    },
+    "default_permission": {
+        "user.create": {
+            "name": "user.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "user.update": {
+            "name": "user.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "user.delete": {
+            "name": "user.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "user.show": {
+            "name": "user.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "settings.update": {
+            "name": "settings.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "membership.create": {
+            "name": "membership.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "membership.update": {
+            "name": "membership.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "membership.delete": {
+            "name": "membership.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "membership.show": {
+            "name": "membership.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "blog.create": {
+            "name": "blog.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "blog.update": {
+            "name": "blog.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "blog.delete": {
+            "name": "blog.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "blog.show": {
+            "name": "blog.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "post.create": {
+            "name": "post.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "post.update": {
+            "name": "post.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "post.delete": {
+            "name": "post.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "post.show": {
+            "name": "post.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "news.create": {
+            "name": "news.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "news.update": {
+            "name": "news.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "news.delete": {
+            "name": "news.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "news.show": {
+            "name": "news.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "muscle.create": {
+            "name": "muscle.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "muscle.update": {
+            "name": "muscle.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "muscle.delete": {
+            "name": "muscle.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "muscle.show": {
+            "name": "muscle.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "exercise.create": {
+            "name": "exercise.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "exercise.update": {
+            "name": "exercise.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "exercise.delete": {
+            "name": "exercise.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "exercise.show": {
+            "name": "exercise.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "equipment.create": {
+            "name": "equipment.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "equipment.update": {
+            "name": "equipment.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "equipment.delete": {
+            "name": "equipment.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "equipment.show": {
+            "name": "equipment.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "class.create": {
+            "name": "class.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "class.update": {
+            "name": "class.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "class.delete": {
+            "name": "class.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "class.show": {
+            "name": "class.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "program.create": {
+            "name": "program.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "program.update": {
+            "name": "program.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "program.delete": {
+            "name": "program.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "program.show": {
+            "name": "program.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "member-program.create": {
+            "name": "member-program.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "member-program.update": {
+            "name": "member-program.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "member-program.delete": {
+            "name": "member-program.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "member-program.show": {
+            "name": "member-program.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "gallery.create": {
+            "name": "gallery.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "gallery.update": {
+            "name": "gallery.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "gallery.delete": {
+            "name": "gallery.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "gallery.show": {
+            "name": "gallery.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "announcement.create": {
+            "name": "announcement.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "announcement.update": {
+            "name": "announcement.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "announcement.delete": {
+            "name": "announcement.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "announcement.show": {
+            "name": "announcement.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "product.create": {
+            "name": "product.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "product.update": {
+            "name": "product.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "product.delete": {
+            "name": "product.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "product.show": {
+            "name": "product.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "sales.create": {
+            "name": "sales.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "sales.update": {
+            "name": "sales.update",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "sales.delete": {
+            "name": "sales.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "sales.show": {
+            "name": "sales.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "reports.create": {
+            "name": "reports.create",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "reports.show": {
+            "name": "reports.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "reports.delete": {
+            "name": "reports.delete",
+            "guard_name": "web",
+            "is_main": 1
+        },
+
+        "statistics.show": {
+            "name": "statistics.show",
+            "guard_name": "web",
+            "is_main": 1
+        },
+        "finance.show": {
+            "name": "finance.show",
+            "guard_name": "web",
+            "is_main": 1
+        }
+    }
+}
