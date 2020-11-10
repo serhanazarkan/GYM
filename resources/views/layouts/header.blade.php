@@ -18,11 +18,12 @@
     <!-- Toastr Styling -->
     <link rel="stylesheet/less" type="text/css" href="{{asset('assets/library/toastr/toastr.min.css') }}">
 
-    <!-- Site General Styling -->
-    <link rel="stylesheet/less" type="text/css" href="{{asset('assets/style/dashboard.less') }}">
-
+    <!-- OWL Carousel -->
     <link rel="stylesheet" href="{{ asset('assets/library/OwlCarousel2-2.3.4/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/library/OwlCarousel2-2.3.4/css/owl.theme.default.min.css') }}">
+
+    <!-- Site General Styling -->
+    <link rel="stylesheet/less" type="text/css" href="{{asset('assets/style/main.less') }}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">

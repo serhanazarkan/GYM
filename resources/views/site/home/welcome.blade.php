@@ -3,8 +3,8 @@
 @section('content')
 
 
-    <div class="owl-carousel owl-theme" style="margin-left: -15px; margin-right: -15px">
-        <img class="owl-lazy w-100" data-src="https://www.ozyegin.edu.tr/sites/default/files/upload/spormerkezi/fitness.jpg" alt="">
+    <div class="owl-carousel owl-theme">
+        <img class="owl-lazy" data-src="https://www.ozyegin.edu.tr/sites/default/files/upload/spormerkezi/fitness.jpg" alt="">
         <img class="owl-lazy" data-src="https://placehold.it/350x650&text=2" alt="">
         <img class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt="">
         <img class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt="">
